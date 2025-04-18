@@ -59,6 +59,11 @@
             font-size: 30px;
             font-weight: 400;
         }
+        .active {
+            text-decoration: underline;
+            text-underline-offset: 6px;
+        }
+        
         .sidebar {
             position: fixed;
             top: 0;
