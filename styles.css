@@ -683,7 +683,7 @@
         .proj-flex div {
             height: auto;
             width: auto;
-            text-align: center;
+
         }
 
 
@@ -757,6 +757,18 @@
                 width: 95%;
             }
             
+            
+        }
+        @media(max-width:850px){
+            .img-abt-1{
+                width: 85%;
+            }
+            .img-abt-2{
+                width: 105%;
+            }
+            .img-abt-3{
+                width: 85%;
+            }
         }
         @media(max-width: 400px) {
             .sidebar{
@@ -784,6 +796,9 @@
                 right: -10px;
                 transition: 0.5s;
             }
+            .abt-paragraph{
+                font-size: 17px;
+            }
             
         }
         @media(max-width: 600px) {
@@ -793,5 +808,18 @@
             .prog-lang-flex{
                 flex-direction: column;
                 align-items:center ;
+            }
+            .img-abt-1{
+                width: 95%;
+                right: -6px;
+            }
+            .img-abt-2{
+                width: 125%;
+                left: -20px;
+                top: 10px;
+            }
+            .img-abt-3{
+                width: 95%;
+                left: -6px;
             }
         }
